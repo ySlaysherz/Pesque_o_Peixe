@@ -1,0 +1,13 @@
+name: Modelo
+description: Plugin modelo
+author: ySlaysherz_
+version: 0.1
+main: Modelo.Main
+api-version: 1.16
+commands:
+  modelo:
+    description: "Descrição modelo"
+    usage: "/modelo <arg>"
+    aliases: [mdl, modelo]
+    permission: permission.modelo
+    permission-message: "Sem permissão para utilizar este comando!"
