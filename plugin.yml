@@ -1,0 +1,5 @@
+name: Pesque_O_Peixe
+version: 0.1
+main: Principal.Main
+api-version: 1.16
+commands:
