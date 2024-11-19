@@ -1,8 +1,8 @@
-name: Modelo
-description: Plugin modelo
+name: Pesque_o_Peixe
+description: Plugin de pesca com minigame interativo utilizando menus.
 author: ySlaysherz_
 version: 0.1
-main: Modelo.Main
+main: Principal.Main
 api-version: 1.16
 commands:
   modelo:

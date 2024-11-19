@@ -8,6 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="spigot-1.16.5" level="project" />
+    <orderEntry type="library" exported="" name="spigot-1.16.5" level="project" />
+    <orderEntry type="library" exported="" name="TranscendentalsApi" level="project" />
   </component>
 </module>
