@@ -46,8 +46,10 @@ public class aoPescarPeixes implements Listener {
         World mundo = evento.getHook().getWorld();
         Entity boia = evento.getHook();
         State eventoState = evento.getState();
+
         boia.setCustomNameVisible(true);
         boia.setCustomName("§eProcurando peixes...");
+
         if (eventoState == State.FAILED_ATTEMPT && estado == FishHook.HookState.BOBBING) {
             boia.setCustomNameVisible(true);
             boia.setCustomName("§cFalhou!");

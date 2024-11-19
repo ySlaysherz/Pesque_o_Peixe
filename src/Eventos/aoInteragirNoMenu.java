@@ -37,6 +37,7 @@ public class aoInteragirNoMenu implements Listener {
                 jogador.getInventory().addItem(new ItemStack(Tipo));
                 jogador.playSound(jogador.getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 0.5f, 0.5f);
                 jogador.closeInventory();
+
                 removerPescador(jogador);
             }
         }
