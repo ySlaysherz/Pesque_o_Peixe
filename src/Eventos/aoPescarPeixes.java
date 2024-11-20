@@ -60,7 +60,6 @@ public class aoPescarPeixes implements Listener {
         }
         if (eventoState == State.CAUGHT_FISH || eventoState == State.CAUGHT_ENTITY && estado == FishHook.HookState.BOBBING) {
             if (!getPescadores().contains(jogador)) {
-
                 Item pescado = (Item) evento.getCaught();
                 ItemStack mar = new ItemStack(Material.BLUE_STAINED_GLASS_PANE);
                 assert pescado != null;
