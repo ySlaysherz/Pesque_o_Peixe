@@ -1,5 +1,5 @@
 name: Pesque_O_Peixe
-version: 0.1
+version: 0.2
+author: ySlaysherz_
 main: Principal.Main
 api-version: 1.16
-commands:
